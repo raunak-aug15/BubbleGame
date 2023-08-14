@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(165, 214, 165);
+}
+.panal{
+
+    overflow: hidden;
+    width: 80vw;
+    height: 80vh;
+    background-color: whitesmoke;
+    border-radius: 0.6rem;
+}
+.ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(64, 94, 64);
+    padding: 0px 30%;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.elem h4{
+    color: white;
+}
+.box{
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(64, 94, 64);
+}
+.pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 0.7rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100%-5rem);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(79, 118, 79);
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    color: wheat;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    background-color: rgb(68, 108, 68);
+    cursor: pointer;
+
+}
